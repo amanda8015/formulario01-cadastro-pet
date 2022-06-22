@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro De Pets</title>
+</head>
+<header>
+    <h1>Cadastro De Pets</h1>
+    <p><strong>Preencha com as informações do seu pet</strong></p>
+    <br>
+
+</header>
+<body>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label  for="nome"><strong>Qual o nome do seu pet?</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>Seu pet é?</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Qual a raça?</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>SRD</option>
+                    <option>Golden</option>
+                    <option>Samoieda</option>
+                    <option>Husky</option>
+                    <option>Rottweiler</option>
+                    <option>Pit Bull</option>
+                    <option>Pastor Alemão</option>
+                    <option>Dálmata</option>
+                    <option>Labrador</option>
+                    <option>Akita</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Idade aproximada:</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>Menos de 1 ano</option>
+                    <option>Entre 1 a 2 anos</option>
+                    <option>Entre 2 a 4 anos</option>
+                    <option>Entre 4 a 8 anos</option>
+                    <option>acima de 8 anos</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Ração da linha:</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>Gold</option>
+                    <option>Premium</option>
+                    <option>Super-Premium</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Vacinação em dia?</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select><br>
+
+            <div class="campo">
+                <label><strong>Vermífugo de 6 em 6 meses?</strong></label>
+                <select required>
+                    <option selected disabled value=""></option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div id="check">
+                <label><strong>Selecione de acordo com a personalidade do seu pet:</strong></label><br><br>
+                <input type="checkbox" id="personalidade1" name="personalidade1" value="brincalhao">
+                <label for="personalidade1">Brincalhão</label>
+                <input type="checkbox" id="personalidade2" name="personalidade2" value="ranzinza">
+                <label for="personalidade2">Ranzinza</label>
+                <input type="checkbox" id="personalidade3" name="personalidade3" value="antisocial">
+                <label for="personalidade3">Anti-Social</label>
+                <input type="checkbox" id="personalidade4" name="personalidade4" value="extrovertido">
+                <label for="personalidade4">Extrovertido</label>
+                <input type="checkbox" id="personalidade5" name="personalidade5" value="guardiao">
+                <label for="personalidade5">Guardião</label>
+                <input type="checkbox" id="personalidade6" name="personalidade6" value="carente">
+                <label for="personalidade6">Carênte</label>
+                <input type="checkbox" id="personalidade7" name="personalidade7" value="destruidor">
+                <label for="personalidade7">Destruidor</label>
+                <input type="checkbox" id="personalidade8" name="personalidade8" value="bravo">
+                <label for="personalidade8">Bravo</label>
+                <input type="checkbox" id="personalidade9" name="personalidade9" value="agitado">
+                <label for="personalidade9">Agitado</label>
+                <input type="checkbox" id="personalidade10" name="personalidade10" value="teimoso">
+                <label for="personalidade10">Teimoso</label>
+                <input type="checkbox" id="personalidade11" name="personalidade11" value="companheiro">
+                <label for="personalidade12">Companheiro</label>
+                <input type="checkbox" id="personalidade12" name="personalidade12" value="docil">
+                <label for="personalidade12">Dócil</label>
+            </div>
+        </fieldset>
+
+        <button class="botao" type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
